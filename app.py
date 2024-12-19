@@ -12,10 +12,10 @@ import shutil
 
 # Streamlit Configuration
 st.set_page_config(page_title="KRA XML CONVERTER", page_icon="logox.png", menu_items={
-        'Get Help': 'mailto:dporwal985@gmail.com',
+        'Get Help': 'https://github.com/DhananjayPorwal/xml-to-pdf-converter-candor-investing/blob/main/README.md',
         'Report a bug': "mailto:dporwal985@gmail.com",
         'About': "### Created by [Candor Investing](https://www.candorinvesting.com/)"
-    })  # Set wide layout for the page
+    })
 
 # Load the custom CSS from an external file
 def load_css():
